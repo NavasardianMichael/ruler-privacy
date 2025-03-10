@@ -2,16 +2,16 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app">
-      <h3 className="text-center">
-        Privary Policy for the
+    <div className='app'>
+      <h3 className='text-center'>
+        Privacy Policy for the
         <br /> Chrome Extension
       </h3>
-      <h1 className="text-center">Ruler</h1>
+      <h1 className='text-center'>Ruler</h1>
       <p>
-        <b>3rd of March, 2025</b>
+        <b>10th of March, 2025</b>
       </p>
-      <div className="text-justify">
+      <div className='text-justify'>
         Thank you for choosing the Ruler Extension. This Privacy Policy explains
         how we handle your data when you use our extension.
         <ol>
@@ -19,10 +19,21 @@ function App() {
             <b>Data Collection and Storage</b>
             <ul>
               <li>
-                <b>Local Storage Only:</b> The extension uses &nbsp;
-                <i>chrome.storage.local</i> solely to store user preferences,
-                such as the last position, sizing, and color settings of the
-                ruler.
+                <b>Local Storage Only:</b> The extension uses only&nbsp;
+                <i>the local storage</i> of the browser to store user
+                preferences, which are
+                <ul>
+                  <li>the status whether to show/hide the ruler, </li>
+                  <li>the status whether the precise mode is on/off,</li>
+                  <li>diagonal of the desktop the user is using</li>
+                  <li>primary unit of the ruler,</li>
+                  <li>primary unit step of the ruler,</li>
+                  <li>the status whether to show/hide the secondary unit,</li>
+                  <li>secondary unit step of the ruler,</li>
+                  <li>background color of the ruler,</li>
+                  <li>text and outline color of the ruler,</li>
+                  <li>rotation degree of the ruler.</li>
+                </ul>
               </li>
               <li>
                 <b>No External Transmission:</b> All data is stored locally on
@@ -37,13 +48,13 @@ function App() {
             <ul>
               <li>
                 <b>Enhancing User Experience:</b> The data stored is used
-                exclusively to provide you with a personalized and consistent
+                exclusively to provide user with a personalized and consistent
                 experience each time you use the extension.
               </li>
               <li>
                 <b>No Personal Data Collection:</b> We do not collect any
-                personal or sensitive information from you. The stored settings
-                are strictly for functionality purposes.
+                personal or sensitive information from the user. The stored
+                settings are strictly for functionality purposes.
               </li>
             </ul>
           </li>
@@ -86,7 +97,7 @@ function App() {
                 Extension, please contact the developer, Michael Navasardyan.
                 <br />
                 Email:{" "}
-                <a href="mailto:navasardianmichael@gmail.com">
+                <a href='mailto:navasardianmichael@gmail.com'>
                   navasardianmichael@gmail.com
                 </a>
               </li>
