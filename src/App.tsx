@@ -7,9 +7,16 @@ function App() {
         Privacy Policy for the
         <br /> Chrome Extension
       </h3>
-      <h1 className='text-center'>Ruler</h1>
+      <h1 className='text-center'>
+        <a
+          href='https://chromewebstore.google.com/detail/ruler/mnkiojfbiobgookemgaggoojpcfcknmb'
+          target='_blank'
+        >
+          Ruler
+        </a>
+      </h1>
       <p>
-        <b>10th of March, 2025</b>
+        <b>19th of March, 2025</b>
       </p>
       <div className='text-justify'>
         Thank you for choosing the Ruler Extension. This Privacy Policy explains
@@ -104,6 +111,15 @@ function App() {
             </ul>
           </li>
         </ol>
+        <p>
+          Install the extension here:{" "}
+          <a
+            href='https://chromewebstore.google.com/detail/ruler/mnkiojfbiobgookemgaggoojpcfcknmb'
+            target='_blank'
+          >
+            https://chromewebstore.google.com/detail/ruler/mnkiojfbiobgookemgaggoojpcfcknmb
+          </a>
+        </p>
       </div>
     </div>
   );
